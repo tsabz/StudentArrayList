@@ -24,20 +24,29 @@ public class StoringArrayList {
         studentArrayList.add(new Student(2, "Anita Perez", "50 lafayette rd"));
         studentArrayList.add(new Student(10, "Benny Braun", "183 meadows dr"));
         
-        
+        // Unsorted Array
         System.out.println("Unsorted Student List");
         
         
         for (int i = 0; i < studentArrayList.size(); i++)
             System.out.println(studentArrayList.get(i));
         
-        Collections.sort(studentArrayList, new sortRollNo());
-        
+        // Sorted by Roll Number
         System.out.println("***************");
         System.out.println("Sorted Student List By Roll Number");
         
+        Collections.sort(studentArrayList, new sortRollNo());
         for (int i = 0; i < studentArrayList.size(); i++)
         	System.out.println(studentArrayList.get(i));
+        
+     // Sorted by Name
+        System.out.println("***************");
+        System.out.println("Sorted Student List By Name");
+        
+        Collections.sort(studentArrayList, new sortName());
+        for (int i = 0; i < studentArrayList.size(); i++)
+        	System.out.println(studentArrayList.get(i));
+        
 	}
 
 }
