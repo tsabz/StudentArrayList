@@ -4,8 +4,8 @@ public class sortRollNo implements Comparator<Student> {
 
 	@Override
 	public int compare(Student o1, Student o2) {
-		// TODO Auto-generated method stub
-		return 0;
+		// compares in ascending order of rollNo
+		return o1.rollno - o2.rollno;
 	}
 
 }

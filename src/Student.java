@@ -16,10 +16,9 @@ public class Student {
 
     }
     
-    public String toString()
-    {
+    // returns string information for student object
+    public String toString() {
  
-
         return this.rollno + " " + this.name + " "
             + this.address;
     }
