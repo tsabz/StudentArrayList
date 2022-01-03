@@ -21,7 +21,7 @@ public class StoringArrayList {
         studentArrayList.add(new Student(39, "Ronny Marco", "444 angurland rd"));
         studentArrayList.add(new Student(36, "Baba Ahmed", "220 over dr"));
         studentArrayList.add(new Student(87, "Rav Patel", "1750 sprint st"));
-        studentArrayList.add(new Student(2, "Anita Perez", "50 lafayette rd"));
+        studentArrayList.add(new Student(99, "Anita Perez", "50 lafayette rd"));
         studentArrayList.add(new Student(10, "Benny Braun", "183 meadows dr"));
         
         // Unsorted Array
@@ -54,3 +54,5 @@ public class StoringArrayList {
 
 //References
 //https://www.geeksforgeeks.org/comparator-interface-java/
+//https://www.geeksforgeeks.org/collections-sort-java-examples/
+//https://www.geeksforgeeks.org/java-program-to-sort-an-arraylist/
